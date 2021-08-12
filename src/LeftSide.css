@@ -1,0 +1,25 @@
+.leftSide{
+  width: 100%;
+}
+.leftSide__Card{
+  display: flex;
+  justify-content: space-evenly;
+}
+.leftSide__box1{
+  height: 100%;
+  width: 320px;
+}
+@media (max-width: 720px) {
+  .leftSide__Card{
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .leftSide{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .leftSide__box1{
+    margin: 1rem;
+    width: auto;
+  }
+}

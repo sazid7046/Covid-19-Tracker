@@ -1,0 +1,11 @@
+.covid{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .covid{
+    flex-direction: column;
+  }
+}
